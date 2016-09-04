@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#a7d84c"
+    android:layout_height="match_parent" >
+
+    <com.jia.luckypan.LuckyPan
+        android:id="@+id/id_luckyPan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/id_start_btn"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/start"/>
+</RelativeLayout>
